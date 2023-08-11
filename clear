@@ -1,0 +1,189 @@
+[33mcommit 50615ea86620fd63c482c6d6afe4600ff3c2cd7c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: unknown <ae2004w@gmail.com>
+Date:   Tue Aug 8 09:31:23 2023 -0400
+
+    added cart 2
+
+ src/main/java/com/qa/opencart/pages/Cart.java | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
+
+[33mcommit 59c47f570db30e6625431a0e257eedd6b5b4aff2[m
+Author: unknown <ae2004w@gmail.com>
+Date:   Tue Aug 8 09:28:37 2023 -0400
+
+    added cart
+
+ src/main/java/com/qa/opencart/pages/Cart.java | 10 [32m++++++++++[m
+ 1 file changed, 10 insertions(+)
+
+[33mcommit 54dc4caeceec279e970d7410497884806d48bb73[m
+Author: unknown <ae2004w@gmail.com>
+Date:   Tue Aug 8 09:23:41 2023 -0400
+
+    Nov2022POM
+
+ .classpath                                         |   39 [32m+[m
+ .gitignor                                          |    0
+ .project                                           |   23 [32m+[m
+ .settings/org.eclipse.core.resources.prefs         |    6 [32m+[m
+ .settings/org.eclipse.jdt.core.prefs               |    8 [32m+[m
+ .settings/org.eclipse.m2e.core.prefs               |    4 [32m+[m
+ ...09dac49-ab0f-4d36-9c09-59e9940bcd29-result.json |    1 [32m+[m
+ ...6211f86-af46-476b-9bea-7e057084c54a-result.json |    1 [32m+[m
+ ...a96d-bb57-45b5-8c5a-68b5cd1fbd7d-container.json |    1 [32m+[m
+ ...0d234b2c-10c8-4c14-8fe7-43bcd3dcfa47-attachment |  Bin [31m0[m -> [32m97779[m bytes
+ ...10ca3d16-42fc-43c6-9105-cb954f309959-attachment |    1 [32m+[m
+ ...daaf-c425-4e55-81ef-399ca4df0035-container.json |    1 [32m+[m
+ ...46eeeb8-82cb-461a-9a51-3e2c91d31899-result.json |    1 [32m+[m
+ ...2583f815-1f5f-453c-9ec0-0f3b8dca0733-attachment |  Bin [31m0[m -> [32m97779[m bytes
+ ...6b4f919-1179-4cd8-8bdc-dcf31c8955a9-result.json |    1 [32m+[m
+ ...38c618ee-b00c-4c7b-9a69-f5449ff9256b-attachment |    1 [32m+[m
+ ...39765d8b-f947-4680-bee5-de458195f4fa-attachment |  Bin [31m0[m -> [32m100546[m bytes
+ ...1409-f5dd-4d0d-8d13-a36b3b25b691-container.json |    1 [32m+[m
+ ...ad20-a4a6-4430-afbe-6a9a69c19574-container.json |    1 [32m+[m
+ ...bd76e25-d3ec-490b-b46c-542b6c82786a-result.json |    1 [32m+[m
+ ...4eb1-3326-4893-af93-b3a92783bbfd-container.json |    1 [32m+[m
+ ...2b3c094-a097-4d64-9c1c-b608d75e0f42-result.json |    1 [32m+[m
+ ...8f48-84b4-40fe-ba53-490ee0ef2c50-container.json |    1 [32m+[m
+ ...82e2171-1f91-437a-a225-ce82954e0e43-result.json |    1 [32m+[m
+ ...31c1-f399-4261-8cf8-475821be5ae1-container.json |    1 [32m+[m
+ ...9526fcb-d412-4d7b-a900-ed3e94cc8689-result.json |    1 [32m+[m
+ ...5fcf8a4-67dd-417f-bf34-d00a20688b79-result.json |    1 [32m+[m
+ ...5ee7-56f7-4fd0-a2b2-8234947e5c2a-container.json |    1 [32m+[m
+ ...8ee8d42-92b3-4993-b12a-0bd4160762cb-result.json |    1 [32m+[m
+ ...99acf269-60bd-413a-b3e4-8b9f99de4d17-attachment |    1 [32m+[m
+ ...63f8-e8cc-4e92-ac98-34d2fd42219c-container.json |    1 [32m+[m
+ ...ee2d070-b27e-4f94-a7b3-42c4f52bb9c2-result.json |    1 [32m+[m
+ ...140c7f7-921e-4b03-9934-d030950b2ac3-result.json |    1 [32m+[m
+ ...214814c-86dd-472f-af51-7e4055dbee94-result.json |    1 [32m+[m
+ ...cb5c585-b35e-4968-97e4-0258ef9f4372-result.json |    1 [32m+[m
+ ...b6b2-5205-42d5-abb1-61b8c656b657-container.json |    1 [32m+[m
+ ...c178-959e-445e-9235-814cbe268224-container.json |    1 [32m+[m
+ ...8f05f5a-3a69-4403-9db4-4fe829332b09-result.json |    1 [32m+[m
+ ...0484-efe9-4a68-93f6-b8f9af0cfa0a-container.json |    1 [32m+[m
+ ...c2a0e0b-fa2d-44d3-be40-558c5e2bf0e2-result.json |    1 [32m+[m
+ ...517e-eb87-47ab-ad36-81a5611eea17-container.json |    1 [32m+[m
+ ...f9bca69-bbe0-4323-b5ea-ad9745d6dd7e-result.json |    1 [32m+[m
+ ...2f490a0-d12d-4c38-909b-535f63c3e359-result.json |    1 [32m+[m
+ ...72f266d-09e7-40fe-837f-3b2ef8e0cd67-result.json |    1 [32m+[m
+ ...bccd-c47a-47b5-9692-07935c3ce280-container.json |    1 [32m+[m
+ ...d3fe821-07c5-46ae-bdcb-b780648602b7-result.json |    1 [32m+[m
+ ...99e1-e439-46bc-9ba3-fcc84b32e6b5-container.json |    1 [32m+[m
+ ...4589ddb-70e0-48d8-b004-ce4014b8feae-result.json |    1 [32m+[m
+ pom.xml                                            |  141 [32m++[m
+ reports/TestExecutionReport.html                   | 1843 [32m++++++++++++++++++++[m
+ .../com/qa/opencart/constants/AppConstants.java    |   45 [32m+[m
+ .../qa/opencart/exception/FrameworkException.java  |   12 [32m+[m
+ .../com/qa/opencart/factory/DriverFactory.java     |  171 [32m++[m
+ .../com/qa/opencart/factory/OptionsManager.java    |   57 [32m+[m
+ .../opencart/listeners/AnnotationTransformer.java  |   16 [32m+[m
+ .../opencart/listeners/ExtentReportListener.java   |  127 [32m++[m
+ src/main/java/com/qa/opencart/listeners/Retry.java |   25 [32m+[m
+ .../qa/opencart/listeners/TestAllureListener.java  |   83 [32m+[m
+ .../java/com/qa/opencart/pages/AccountsPage.java   |   87 [32m+[m
+ src/main/java/com/qa/opencart/pages/DemoPage.java  |    5 [32m+[m
+ src/main/java/com/qa/opencart/pages/LoginPage.java |   87 [32m+[m
+ .../com/qa/opencart/pages/ProductInfoPage.java     |  122 [32m++[m
+ .../java/com/qa/opencart/pages/RegisterPage.java   |   82 [32m+[m
+ .../com/qa/opencart/pages/RegistrationPage.java    |    5 [32m+[m
+ .../java/com/qa/opencart/pages/SearchPage.java     |   36 [32m+[m
+ .../java/com/qa/opencart/utils/ElementUtil.java    |  335 [32m++++[m
+ src/main/java/com/qa/opencart/utils/ExcelUtil.java |   61 [32m+[m
+ .../java/com/qa/opencart/utils/JavaScriptUtil.java |   52 [32m+[m
+ src/test/java/com/qa/opencart/base/BaseTest.java   |   49 [32m+[m
+ .../com/qa/opencart/tests/AccountsPageTest.java    |  104 [32m++[m
+ .../java/com/qa/opencart/tests/LoginPageTest.java  |   67 [32m+[m
+ .../com/qa/opencart/tests/ProductPageInfoTest.java |   90 [32m+[m
+ .../com/qa/opencart/tests/RegisterPageTest.java    |   50 [32m+[m
+ src/test/resources/config/config.properties        |   15 [32m+[m
+ src/test/resources/config/dev.config.properties    |   13 [32m+[m
+ src/test/resources/config/qa.config.properties     |   13 [32m+[m
+ src/test/resources/config/stage.config.properties  |   13 [32m+[m
+ src/test/resources/testdata/OpenCartTestData.xlsx  |  Bin [31m0[m -> [32m10440[m bytes
+ .../resources/testrunners/testng_regression.xml    |   43 [32m+[m
+ target/classes/META-INF/MANIFEST.MF                |    5 [32m+[m
+ .../Nov2022POMSeries/pom.properties                |    7 [32m+[m
+ .../Nov2022POMSeries/Nov2022POMSeries/pom.xml      |  141 [32m++[m
+ .../com/qa/opencart/constants/AppConstants.class   |  Bin [31m0[m -> [32m1338[m bytes
+ .../qa/opencart/exception/FrameworkException.class |  Bin [31m0[m -> [32m402[m bytes
+ .../com/qa/opencart/factory/DriverFactory.class    |  Bin [31m0[m -> [32m5172[m bytes
+ .../com/qa/opencart/factory/OptionsManager.class   |  Bin [31m0[m -> [32m2120[m bytes
+ .../opencart/listeners/AnnotationTransformer.class |  Bin [31m0[m -> [32m937[m bytes
+ .../opencart/listeners/ExtentReportListener.class  |  Bin [31m0[m -> [32m6686[m bytes
+ .../classes/com/qa/opencart/listeners/Retry.class  |  Bin [31m0[m -> [32m803[m bytes
+ .../qa/opencart/listeners/TestAllureListener.class |  Bin [31m0[m -> [32m3708[m bytes
+ .../com/qa/opencart/pages/AccountsPage.class       |  Bin [31m0[m -> [32m3439[m bytes
+ .../classes/com/qa/opencart/pages/DemoPage.class   |  Bin [31m0[m -> [32m293[m bytes
+ .../classes/com/qa/opencart/pages/LoginPage.class  |  Bin [31m0[m -> [32m3463[m bytes
+ .../com/qa/opencart/pages/ProductInfoPage.class    |  Bin [31m0[m -> [32m4917[m bytes
+ .../com/qa/opencart/pages/RegisterPage.class       |  Bin [31m0[m -> [32m3188[m bytes
+ .../com/qa/opencart/pages/RegistrationPage.class   |  Bin [31m0[m -> [32m317[m bytes
+ .../classes/com/qa/opencart/pages/SearchPage.class |  Bin [31m0[m -> [32m1802[m bytes
+ .../com/qa/opencart/utils/ElementUtil.class        |  Bin [31m0[m -> [32m11728[m bytes
+ .../classes/com/qa/opencart/utils/ExcelUtil.class  |  Bin [31m0[m -> [32m2343[m bytes
+ .../com/qa/opencart/utils/JavaScriptUtil.class     |  Bin [31m0[m -> [32m1016[m bytes
+ .../com/qa/opencart/base/BaseTest.class            |  Bin [31m0[m -> [32m1487[m bytes
+ .../com/qa/opencart/tests/AccountsPageTest.class   |  Bin [31m0[m -> [32m4412[m bytes
+ .../com/qa/opencart/tests/LoginPageTest.class      |  Bin [31m0[m -> [32m2469[m bytes
+ .../qa/opencart/tests/ProductPageInfoTest.class    |  Bin [31m0[m -> [32m3708[m bytes
+ .../com/qa/opencart/tests/RegisterPageTest.class   |  Bin [31m0[m -> [32m2167[m bytes
+ target/test-classes/config/config.properties       |   15 [32m+[m
+ target/test-classes/config/dev.config.properties   |   13 [32m+[m
+ target/test-classes/config/qa.config.properties    |   13 [32m+[m
+ target/test-classes/config/stage.config.properties |   13 [32m+[m
+ target/test-classes/testdata/OpenCartTestData.xlsx |  Bin [31m0[m -> [32m10440[m bytes
+ .../test-classes/testrunners/testng_regression.xml |   43 [32m+[m
+ test-output/Default suite/Default test.html        |  236 [32m+++[m
+ test-output/Default suite/Default test.xml         |   75 [32m+[m
+ test-output/Default suite/testng-failed.xml        |   15 [32m+[m
+ .../Accounts Page Test.html                        |  641 [32m+++++++[m
+ .../Accounts Page Test.xml                         |   95 [32m+[m
+ .../Login Page Test.html                           |  152 [32m++[m
+ .../Login Page Test.xml                            |    7 [32m+[m
+ .../Product Info Page Test.html                    |  100 [32m++[m
+ .../Product Info Page Test.xml                     |    8 [32m+[m
+ .../Register Page Test.html                        |  128 [32m++[m
+ .../Register Page Test.xml                         |    4 [32m+[m
+ test-output/bullet_point.png                       |  Bin [31m0[m -> [32m356[m bytes
+ test-output/collapseall.gif                        |  Bin [31m0[m -> [32m157[m bytes
+ test-output/emailable-report.html                  |   15 [32m+[m
+ test-output/failed.png                             |  Bin [31m0[m -> [32m977[m bytes
+ test-output/index.html                             |  306 [32m++++[m
+ test-output/jquery-3.6.0.min.js                    |    2 [32m+[m
+ ...TEST-com.qa.opencart.tests.AccountsPageTest.xml |   10 [32m+[m
+ .../TEST-com.qa.opencart.tests.LoginPageTest.xml   |   75 [32m+[m
+ ...T-com.qa.opencart.tests.ProductPageInfoTest.xml |    5 [32m+[m
+ ...TEST-com.qa.opencart.tests.RegisterPageTest.xml |   37 [32m+[m
+ test-output/navigator-bullet.png                   |  Bin [31m0[m -> [32m352[m bytes
+ .../old/Default suite/Default test.properties      |    1 [32m+[m
+ test-output/old/Default suite/classes.html         |   40 [32m+[m
+ test-output/old/Default suite/groups.html          |    1 [32m+[m
+ test-output/old/Default suite/index.html           |    6 [32m+[m
+ test-output/old/Default suite/main.html            |    2 [32m+[m
+ .../old/Default suite/methods-alphabetical.html    |   16 [32m+[m
+ test-output/old/Default suite/methods-not-run.html |    2 [32m+[m
+ test-output/old/Default suite/methods.html         |   16 [32m+[m
+ test-output/old/Default suite/reporter-output.html |    1 [32m+[m
+ test-output/old/Default suite/testng.xml.html      |    1 [32m+[m
+ test-output/old/Default suite/toc.html             |   30 [32m+[m
+ .../classes.html                                   |    6 [32m+[m
+ .../Opencart App Test Regression Suite/groups.html |    1 [32m+[m
+ .../Opencart App Test Regression Suite/index.html  |    6 [32m+[m
+ .../Opencart App Test Regression Suite/main.html   |    2 [32m+[m
+ .../methods-alphabetical.html                      |   52 [32m+[m
+ .../methods-not-run.html                           |    2 [32m+[m
+ .../methods.html                                   |   52 [32m+[m
+ .../reporter-output.html                           |    1 [32m+[m
+ .../testng.xml.html                                |    1 [32m+[m
+ .../Opencart App Test Regression Suite/toc.html    |   22 [32m+[m
+ test-output/old/index.html                         |    8 [32m+[m
+ test-output/passed.png                             |  Bin [31m0[m -> [32m1019[m bytes
+ test-output/skipped.png                            |  Bin [31m0[m -> [32m967[m bytes
+ test-output/testng-failed.xml                      |   15 [32m+[m
+ test-output/testng-reports.css                     |  326 [32m++++[m
+ test-output/testng-reports.js                      |  122 [32m++[m
+ test-output/testng-reports1.css                    |  344 [32m++++[m
+ test-output/testng-reports2.js                     |   76 [32m+[m
+ test-output/testng-results.xml                     |    9 [32m+[m
+ test-output/testng.css                             |    9 [32m+[m
+ 164 files changed, 7299 insertions(+)
